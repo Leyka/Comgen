@@ -1,5 +1,13 @@
 package app;
 
+import helpers.ConsoleHelper;
+import helpers.FileHelper;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Collection;
+import java.util.Scanner;
+
 /**
  * A small tool to useful commentary in header of each java files.
  * I'm using it in school project to generate a static comment (like my name)
@@ -18,10 +26,18 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		String folderPath = ""; // Retrieve In console 
-		
+        Scanner scanner = new Scanner(System.in);
+        String folderPath = ConsoleHelper.askFolderPath(scanner);
+
 		Core c = new Core();
-		int count = c.execute(folderPath);
+		int count = 0;
+		
+		try {
+			count = c.execute(folderPath);
+		} catch (FileNotFoundException e) {
+			System.out.println("Oups, directory not found. Try again...");
+			// Try again
+		}
 		
 		if (count > 0) {
 			System.out.println("Succes! " + count + " files have been modified.");

@@ -1,3 +1,3 @@
-# comgen
+# Comgen
 
-WIP
+Generate comments for school project with ETS standards. 

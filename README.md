@@ -12,15 +12,13 @@ Session : A2014
 Groupe : 01
 Projet : Laboratoire #3
 Etudiant(e)(s) : 
-Skander Kchouk
-Francis Ouellet
-Nicholas Savard
+Wolfgang Amadeus Mozart
+Sigmund Freud
 Code(s) perm. : 
-KCHS13119207
-OUEF03099307
-SAVN28019401
-Professeur : Ghizlane El boussaidi
-Charges de labo : Alvine Boaye Belle et Michel Gagnon
+WOLM55555455
+SIGF34232433
+Professeur : Bobby
+Charges de labo : Stephane & Lui-même
 Nom du fichier : IStrategie.java
 Date cree : 2014-10-19
 Date dern. modif. 2014-10-19
